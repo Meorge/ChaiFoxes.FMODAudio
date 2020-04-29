@@ -21,7 +21,7 @@ namespace FMOD.Studio
 #if ANDROID
 		public const string dll     = "libfmodstudio";
 #else
-		public const string dll     = "fmodstudio.dll";
+		public const string dll     = "libfmodstudio";
 #endif
 
 		// NOTE: This is the only modified part of the wrapper. Don't forget to copy it over when updating.
